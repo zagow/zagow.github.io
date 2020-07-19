@@ -1,8 +1,8 @@
 function httpGet(theUrl)
 {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl);
-    xmlHttp.send();
+    xmlHttp.open( "GET", theUrl, false);
+    xmlHttp.send(null);
     bla=JSON.parse(xmlHttp.responseText);
     return bla;
 }
