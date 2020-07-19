@@ -6,5 +6,5 @@ function httpGet(theUrl)
     bla=JSON.parse(xmlHttp.responseText);
     return bla;
 }
-bla=httpGet('http://www.affirmations.dev');
+bla=httpGet('https://cors-anywhere.herokuapp.com/http://www.affirmations.dev');
 document.getElementById('quoteoftheday').innerHTML=bla.affirmation;
