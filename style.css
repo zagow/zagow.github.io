@@ -23,7 +23,7 @@ h2 {
   font-size: 1.8em;
 }
 
-h3 {
+p {
   font-size: 1.6em;
 }
 
@@ -112,7 +112,7 @@ blockquote:active:after {
 }
 blockquote cite {
   display: block;
-  font-size: 1.75em;
+  font-size: 0.75em;
   line-height: 1.8em;
   margin-top: 1em;
 }
@@ -133,7 +133,7 @@ blockquote cite {
   }
 
   blockquote {
-    font-size: 2.1em;
+    font-size: 1.1em;
     margin: 1.1em -2em;
   }
 }
