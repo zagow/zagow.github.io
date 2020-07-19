@@ -142,10 +142,7 @@ blockquote cite {
     font-size: 16px;
   }
 
-  .container {
-    padding: 0 2em 3em;
-  }
-
+  
   blockquote {
     border-top: 2px solid #00CC8F;
     border-bottom: 2px solid #00CC8F;
